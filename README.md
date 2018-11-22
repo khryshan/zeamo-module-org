@@ -1,9 +1,9 @@
-# zeamo-organization-module
+# zeamo-module-org
 
 ## Installation
 
 ```
-npm install zeamo-organization-module --save
+npm install zeamo-module-org --save
 ```
 
 ## TODO
