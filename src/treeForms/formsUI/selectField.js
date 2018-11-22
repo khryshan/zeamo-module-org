@@ -18,7 +18,7 @@ const SelectField = ({ data, name, handleChange }) => (<Row>
         title={item.title}
         selected={item.selected}
       >
-        {item.name} - {item.subName}
+        {(!item.subName) ? item.name : `${item.name} - ${item.subName}`}
       </option> : null
     )}
     </select>
